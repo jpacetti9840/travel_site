@@ -1,0 +1,135 @@
+body {
+    background-repeat: repeat;
+    background-size: cover;
+    background-image: url(abstract-background-light-steel-blue-wallpaper-image.jpg);
+    font-size: 14pt;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    height: 1650px;
+}
+
+#container {
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+
+/*Float the Aside so it displays next to Main.*/
+aside {
+    width: 150px;
+    height: 1750px;
+    background-color: #7B98C4;
+    float: left;
+    color: #FFFFFF;
+}
+header {
+    width: 768px;
+    height: 250px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    background-image: url(travel_header.gif);
+}
+
+main {
+    width: 598px;
+    height: 1700px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+h1{
+    color: #95BBD2;
+	 font-family: "politica", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24pt;
+}
+
+
+h3 {
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #C3A182;
+    clear: both;
+}
+img {
+    float: right;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+.floatleft{
+	float: left;
+}
+
+article {
+    margin-bottom: 30px;
+    height: auto;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+#container nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    margin: 0px 60px 0px 0px;
+    font-family: neonoir, sans-serif;
+    width: 80px;
+    font-size: 18pt;
+}
+#container nav ul {
+    margin: auto;
+    width: 565px;
+}
+
+nav a:link {
+    color: #7B98C4;
+	padding: 10px;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #305991;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #7B98C4;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #BA94FF;
+}
+.submit_btn {
+    width: 150px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #305991;
+	border-radius: 10px
+}
+
+.submit_btn:hover {
+	 -webkit-box-shadow: 6px 6px 35px 1px #303030;
+    box-shadow: 6px 6px 35px 1px #303030;
+}
